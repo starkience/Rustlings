@@ -1,10 +1,9 @@
 fn bigger(a: i32, b: i32) -> i32 {
-
     if a > b {
         return a;
-    }else if a < b {
+    } else if a < b {
         return b;
-    }else {
+    } else {
         return a;
     }
 
@@ -21,12 +20,6 @@ fn main() {
 
     print!("The bigger number is: {}", bigger(a, b));
 }
-
-
-
-
-
-
 
 // Don't mind this for now :)
 #[cfg(test)]
