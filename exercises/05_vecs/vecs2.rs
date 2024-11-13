@@ -10,9 +10,6 @@ fn vec_loop(input: &[i32]) -> Vec<i32> {
     output
 }
 
-
-
-
 fn vec_map_example(input: &[i32]) -> Vec<i32> {
     // An example of collecting a vector after mapping.
     // We map each element of the `input` slice to its value plus 1.
@@ -27,10 +24,6 @@ fn vec_map(input: &[i32]) -> Vec<i32> {
     // See the example in the function `vec_map_example` above.
     input.iter().map(|element| element * 2).collect()
 }
-
-
-
-
 
 fn main() {
     // You can optionally experiment here.
