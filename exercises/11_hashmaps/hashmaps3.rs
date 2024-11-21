@@ -32,7 +32,7 @@ fn build_scores_table(results: &str) -> HashMap<&str, TeamScores> {
         // conceded by team 2. Similarly, goals scored by team 2 will be the
         // number of goals conceded by team 1.
     }
-
+    error_exercise_not_finished; ??????
     scores
 }
 
